@@ -12,4 +12,10 @@ public with sharing class SampleApexClassTests {
         Integer returnedValue = SampleApexClass.dummyPrint2();
         Assert.areEqual(2,returnedValue);
     }
+
+     @isTest
+    public static void testDummy3(){
+        Integer returnedValue = SampleApexClass.dummyPrint2();
+        Assert.areEqual(3,returnedValue);
+    }
 }
